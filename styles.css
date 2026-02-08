@@ -1,0 +1,23 @@
+.header-container {
+    justify-items: center;
+}
+.main-body-container {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li {
+    margin-right: 3em;
+}
+.image-container {
+    justify-content: center;
+}
+img {
+    max-height: 50vh;
+}
+footer {
+    text-align: center;
+}
