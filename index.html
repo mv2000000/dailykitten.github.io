@@ -8,7 +8,7 @@
     <title>Daily Kitten</title>
 </head>
 
-<body>
+<body onload="getCookies"()>
 <header>
     <div class="header-container">
     <h1>Meet Your Kitten</h1>
@@ -28,13 +28,25 @@
         <div class="image-container">
         <img class ="kitten_picture" src="img/cat_mystery.png" alt="kitten of an unknown type">
         </div>
+
         <div class="main-body-container">
         <p>Meet Mystery Kitty! This little creature can transform into all sorts of different kittens to wish you luck during your day.
         What form will mystery kitty take next? Check this site again in a few weeks for updates!
         </p>
         <button>Transform</button>
         </div>
+
+        <div class="fav-kitten-list">
+        <h2>Your Favorite Kittens</h2>
+        <form id="form" width="100px">
+            <input type="text" id="fav-kitten" placeholder="enter kitten">
+            <br>
+            <button>Add</button>
+        </form>
+        <div id="result"></div>
         </div>
+        </div>
+
 </main>
 <footer>
     <a href="https://basepaws.com/cat-breeds" target="blank">Learn more about cats!</a>
