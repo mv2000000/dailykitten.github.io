@@ -51,6 +51,16 @@ img {
     margin-bottom: 2em;
     padding: 1em 5em;
 }
+
+.fav-kitten-list {
+    text-align: center;
+    margin:auto;
+    margin-bottom: 2em;
+    padding: 1em 5em;
+}
+.input {
+    width:30px;
+}
 button {
     color:white;
     background-color: #ffbd59;
