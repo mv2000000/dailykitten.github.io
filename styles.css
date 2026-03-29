@@ -51,7 +51,10 @@ img {
     margin-bottom: 2em;
     padding: 1em 5em;
 }
-
+.section-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
 .fav-kitten-list {
     text-align: center;
     margin:auto;
