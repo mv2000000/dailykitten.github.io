@@ -49,7 +49,7 @@ function getCookies(){
     let cookies=document.cookie.split(";")
     let res;
 
-    for (Let i=1; i<cookies.length; i++){
+    for (Let ;i=1; i<cookies.length) i++;{
         res+= i+ "-" + cookies [i-1 + "<br>"]
     }
 
